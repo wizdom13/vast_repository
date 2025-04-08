@@ -6,10 +6,9 @@ cd /workspace/
 set -eo pipefail
 
 # Activate the main virtual environment
-. /venv/main/bin/activate
+#. /venv/main/bin/activate
 
 # Install your packages
-pip install your-packages
 git clone https://github.com/Wan-Video/Wan2.1
 cd Wan2.1
 pip install --no-cache-dir -r requirements.txt
