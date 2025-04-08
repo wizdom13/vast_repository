@@ -1,4 +1,4 @@
-FROM vastai/pytorch:2.6.0-cuda-12.6.3-py312
+FROM vastai/pytorch:2.6.0-cuda-12.4.1-ipv2
 
 # Install your applications into /opt/workspace-internal/
 # This ensures files can be properly synced between instances
